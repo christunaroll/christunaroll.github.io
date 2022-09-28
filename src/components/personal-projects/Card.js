@@ -36,7 +36,7 @@ function CardContent(props) {
       <p className="styleCardTitle">{props.title}</p>
       <p className="styleskillsLabel">{props.skills}</p>
       <p className="styleDescription">{props.description}</p>
-      <button className="styleCode"><a href={props.code}>Github</a></button>
+      <a href={props.code}><button className="styleCode">Learn More</button></a>
     </div>
   );
 }

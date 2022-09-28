@@ -20,9 +20,6 @@ function About() {
                     and theatre, and baking. I also love trying different types of foods and am always down to explore anything new.
                 </p>
                 <p>
-                    *what are you passionate about*
-                </p>
-                <p>
                     If you want to get in touch, please don't hesitate to email me at <b>christina.vo2001@gmail.com</b>. I would love to hear from you!
                 </p>
                 <p>

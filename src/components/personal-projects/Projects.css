@@ -73,7 +73,7 @@
   }
 
   .styleCode {
-    color: #ffffff;
+    color: #253b56;
     padding: 0.8rem;
     font-size: 14px;
     text-transform: uppercase;
@@ -82,7 +82,7 @@
     display: block;
     width: 100%;
     cursor: pointer;
-    border: 1px solid white;
+    border: 1px solid #253b56;
     background: transparent;
   }
   

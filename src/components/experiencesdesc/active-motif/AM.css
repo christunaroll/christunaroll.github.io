@@ -1,0 +1,43 @@
+.pantry-content {
+    display: flex;
+    flex-direction: row;
+    display: flex;
+    padding: 1rem;
+    justify-content: center; 
+}
+
+.pantry-info {
+    display: flex;
+    padding: 1rem;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+    float: left;
+    margin-right: 4rem;
+}
+
+#pantry-pic {
+    height: 300px;
+    width: 600px;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+}
+
+@media all and (max-width: 811px) {
+    .pantry-content {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    #pantry-pic {
+      order: 0;
+      height: 200px;
+      width: 400px;
+    }
+
+    #pantry-info {
+      order: 1;
+      text-align: center;
+    }
+  }

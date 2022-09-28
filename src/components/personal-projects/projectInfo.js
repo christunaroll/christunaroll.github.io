@@ -3,19 +3,19 @@ export let projectInfo = [
       id: 0,
       image:
       require("../../images/ehealth.png"),
-      title: "Improved E-Health Messaging Appointment System",
+      title: "Improved E-Health Appointment System",
       skills: "Human Computer Interaction, Figma, ReactJS",
       description:
-        "Designers react to JavaScript. Join us in this meetup where designers gather to share newbie React knowledge.",
-      code: "http://localhost:3000/ehealth"
+        "A prototype to improve UC Davis' COVID-19 Appointment System.",
+      code: "/ehealth"
     },
     {
       id: 1,
       image: require("../../images/membrane.png"),
       title: "Transmembrane Checker",
       skills: "Python",
-      description: "The meetup goes to Estonia.",
-      code: "https://github.com"  
+      description: "Predicts if a protein is trans-membrane based on presence of a signal peptide and hydrophobic regions.",
+      code: "/transmembrane-checker"  
     },
     {
       id: 2,
@@ -23,8 +23,8 @@ export let projectInfo = [
       require("../../images/taylordle.png"),
       title: "Taylordle",
       skills: "HTML, CSS, Javascript",
-      description: "Join us to learn and share newbie React knowledge.",
-      code: "https://github.com"  
+      description: "Guess a 5 letter word that is related to singer-songwriter Taylor Swift; Spin-off of the game “WORDLE”.",
+      code: "/taylordle"  
     },
     {
       id: 3,
@@ -32,8 +32,8 @@ export let projectInfo = [
       title: "ConnectN",
       skills: "C++, Object Oriented Programming",
       description:
-        "Quick example of this component with no image and no skills label.",
-      code: "https://github.com"  
+        "Get n amount of keys in a row to win; Similar to the game Connect 4.",
+      code: "/connect-n"  
     },
     {
       id: 4,
@@ -41,7 +41,7 @@ export let projectInfo = [
       title: "Buzz-A-Benji",
       skills: "ReactJS",
       description:
-        "A meetup to learn and share newbie React knowledge, focused on UI and motion.",
-      code: "https://github.com"    
+        "Random picture generator of my friend's beloved dog, Benji.",
+      code: "/buzz-a-benji"    
     },
   ];

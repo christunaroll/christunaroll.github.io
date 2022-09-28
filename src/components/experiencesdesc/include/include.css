@@ -1,0 +1,43 @@
+.include-content {
+    display: flex;
+    flex-direction: row;
+    display: flex;
+    padding: 1rem;
+    justify-content: center; 
+}
+
+.include-info {
+    display: flex;
+    padding: 1rem;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+    float: left;
+    margin-right: 4rem;
+}
+
+#nvsi {
+    height: 600px;
+    width: 400px;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+}
+
+@media all and (max-width: 811px) {
+    .include-content {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    #nvsi {
+      order: 0;
+      height: 300px;
+      width: 300px;
+    }
+
+    #include-info {
+      order: 1;
+      text-align: center;
+    }
+  }

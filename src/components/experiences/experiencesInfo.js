@@ -6,24 +6,33 @@ export let experiencesInfo = [
       title: "Metanoia",
       skills: "HTML, CSS, JavaScript, ReactJS",
       description:
-        "Designers react to JavaScript. Join us in this meetup where designers gather to share newbie React knowledge.",
-      code: "https://github.com"  
+        "Providing book recommendations for parents and educators to find for children grades K-5 on current social issues.",
+      code: "/metanoia"  
     },
     {
       id: 1,
       image: require("../../images/nvsi.png"),
       title: "#include at UC Davis",
       skills: "HTML, CSS, JavaScript, NextJS",
-      description: "The meetup goes to Estonia.",
-      code: "https://github.com"  
+      description: "Building websites and mobile applications for local organizations in the community to promote technical growth.",
+      code: "/include"  
     },
     {
       id: 2,
       image:
-        "http://rubbishisgold.com/wp-content/uploads/2018/06/landscape-companies-vancouver-wa-luxury-tourism-vancouver-official-source-of-tourist-information-things-of-landscape-companies-vancouver-wa.jpg",
+      require("../../images/pantry.png"),
       title: "The Pantry at UC Davis ",
       skills: "Django, ReactJS",
-      description: "Join us to learn and share newbie React knowledge.",
-      code: "https://github.com"  
+      description: "Developing proprietary system architecture to provide food and basic necessities to undergraduate and graduate students.",
+      code: "/pantry"  
+    },
+    {
+      id: 3,
+      image:
+      require("../../images/bio.png"),
+      title: "Active Motif Bioinformatics Internship",
+      skills: "Python, R",
+      description: "Worked on parsing data from company, creating data visualizations for project data, and adding metadata to public single cell RNA papers.",
+      code: "/active-motif"  
     },
   ];

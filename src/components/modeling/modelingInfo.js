@@ -9,7 +9,7 @@ export let modelingInfo = [
       skills: "Created with Maya",
       description:
         null,
-      code: "https://github.com"  
+      code: "/cup3d"  
     },
     {
       id: 1,
@@ -17,6 +17,6 @@ export let modelingInfo = [
       title: "Picnic",
       skills: "Created with Maya",
       description: null,
-      code: "https://github.com"  
+      code: "/picnic3d"  
     },
   ];
